@@ -1,0 +1,122 @@
+.left-content h1{
+    position: relative;
+
+}
+.left-content h1::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 3px;
+    width: 50px;
+    height: 3px;
+    background-color: rgba(34, 78, 221, 0.685);
+}
+.imggg {
+    max-width: 100%;
+    width: 100%;
+    height: 162px;
+    border: 1px solid #ddd;
+    text-align: center;
+    align-items: center;
+    margin-top: 25p;
+    line-height: 162px;
+    transition: .5s;
+}
+.imggg:hover{
+    background-color: #808080;
+}
+.blog-heading h1{
+    position: relative;
+}
+.blog-heading h1::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 44%;
+    width: 50px;
+    height: 3px;
+    background-color: rgba(34, 78, 221, 0.685);
+}
+.only-posi{
+    position: relative;
+}
+.immg1 {
+    position: absolute;
+    bottom: -243px;
+    right: 150px;
+    width: 44px;
+    height: auto;
+    border-radius: 50%;
+    z-index: 1;
+}
+.img-temnil{
+    max-width: 100%;
+
+}
+.blog h1{
+    position: relative;
+}
+.blog h1::before {
+    content: "";
+    position: absolute;
+    top: -108px;
+    right: 15px;
+    width: 194px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #3060eb;
+}
+
+/* footer-top */
+.footer-top{
+    background-color: black;
+}
+.footer-top img{
+    width: 100px;
+}
+.footer-top-manu{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-top-manu i{
+    color: #fff;
+    font-size: 34px;
+    margin-right: 26px;
+}
+
+.pages-1 {
+    margin-left: 90px;
+}
+
+.pages-1 h4 {
+    position: relative;
+    margin-left: 10px;
+}
+.pages-1 h4::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: -12px;
+    width: 5px;
+    height: 24px;
+    background-color: rgb(10, 10, 180);
+}
+.ft-t-2nd-ul{
+    list-style: none;
+    padding-left: 0;
+
+}
+.ft-t-2nd-ul a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+.footer-bttom{
+    background-color: black;
+
+    
+}
+.only-border{
+    border-top: 1px solid #ddd ;
+
+}
